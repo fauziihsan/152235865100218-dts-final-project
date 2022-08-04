@@ -30,8 +30,6 @@ const MasakCard = ({ masak }) => {
               alignItems: 'center',
             }}
           >
-            {/* <Rating name="read-only" precision={0.1} value={masak.vote_average / 2} max={5} readOnly /> */}
-            {/* <Box sx={{ ml: 2 }}>{masak.vote_average.toFixed(1)}</Box> */}
           </Box>
         </CardContent>
       </Box>

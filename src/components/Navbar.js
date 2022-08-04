@@ -1,4 +1,3 @@
-// import { FoodBeverageFilter } from '@mui/icons-material';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -10,7 +9,6 @@ import UserLog from './UserLog';
 
 const navItems = [
   { text: 'Makanan Indonesia', link: '/indonesian' },
-  { text: 'Harga', link: '/pricing' },
   { text: 'Tentang Kami', link: '/about' }
 ];
 
@@ -19,7 +17,6 @@ const Navbar = () => {
     <Box sx={{ display: 'flex' }}>
       <AppBar>
         <Toolbar>
-          {/* <FoodBeverageFilter sx={{ display: 'flex', mr: 1 }} /> */}
           <Typography
             variant="h6"
             sx={{
