@@ -30,9 +30,9 @@ root.render(
             <Route path="description" element={<Box sx={{ mt: 10 }}>Provides masak in your hand</Box>} />
             <Route path="services" element={<Box sx={{ mt: 10 }}>Streaming masaks, Indonesian food, and foods review.</Box>} />
           </Route>
-          <Route path="indonesian-food" element={<Box sx={{ mt: 10 }}>Halaman makanan indonesia</Box>} />
-          {/* <Route path="pricing" element={<Pricing />} /> */}
-          {/* <Route path="subscribed/:plan" element={<Subscribed />} /> */}
+          <Route path="indonesian" element={<Box sx={{ mt: 10 }}>Halaman Makanan indonesian</Box>} />
+          <Route path="pricing" element={<Pricing />} />
+          <Route path="subscribed/:plan" element={<Subscribed />} />
         </Route>
         <Route path="login" element={
           <PrivateComponent loginOnly={false}>
